@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.tabs {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.video-list a {
+  display: block;
+  padding: 10px;
+  background: #e8f0fe;
+  margin: 8px 0;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #333;
+}
+
+.no-result {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
